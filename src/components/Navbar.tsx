@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
 
         <div className="hidden md:flex items-center gap-4">
           <button className={`btn btn-secondary ${
-            isScrolled ? 'text-primary' : 'text-white'
+            isScrolled ? 'text-white' : 'text-white'
           }`}>
             <LogIn size={18} /> เข้าสู่ระบบ
           </button>

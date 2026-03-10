@@ -44,7 +44,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ title, category, image, duratio
           </div>
         </div>
         
-        <button className="flex items-center justify-between w-full text-secondary font-bold group">
+        <button className="flex items-center justify-between w-full btn btn-secondary">
           ดูรายละเอียด
           <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
         </button>

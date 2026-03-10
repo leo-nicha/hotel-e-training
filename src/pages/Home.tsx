@@ -146,10 +146,10 @@ const Home: React.FC = () => {
             </div>
             <div>
               <h3 className="text-lg font-bold mb-6">จดหมายข่าว</h3>
-              <p className="text-xs text-blue-500 mb-4">สมัครสมาชิกเพื่อรับข่าวสารล่าสุด</p>
+              <p className="text-sm text-blue-500 mb-4">สมัครสมาชิกเพื่อรับข่าวสารล่าสุด</p>
             </div>
           </div>
-          <hr className="border-white/10 mb-8" />
+          <hr className="border-white/10 mb-10" />
           <div className="text-center text-sm text-blue-500">
             &copy; 2026 Grand Academy E-Training. สงวนลิขสิทธิ์
           </div>

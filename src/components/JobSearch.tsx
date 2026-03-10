@@ -269,7 +269,7 @@ const JobSearch: React.FC = () => {
                         <BookCheck size={18} className="text-secondary" />
                         หลักสูตรการฝึกอบรมที่จำเป็น
                       </div>
-                      <div className="flex flex-col gap-2">
+                      <div className="flex flex-col gap-2 p-4">
                         {job.requiredCourses.map((course: Course, idx: number) => (
                           <div key={idx} className="flex items-center justify-between">
                             <span className="text-sm font-medium text-gray-700">{course.name}</span>
